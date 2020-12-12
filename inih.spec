@@ -45,7 +45,7 @@ embedded systems.
 %files
 %license LICENSE.txt
 %doc README.md
-%{_libdir}/lib%{name}.so.%{version}
+#{_libdir}/lib%{name}.so.%{version}
 %{_libdir}/lib%{name}.so.0
 
 
