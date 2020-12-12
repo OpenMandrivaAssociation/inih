@@ -14,7 +14,6 @@ Source0:  https://github.com/benhoyt/inih/archive/r%{version}/%{name}-r%{version
 
 BuildRequires: meson
 
-
 %description
 The inih package provides simple INI file parser which is only a couple of
 pages of code, and it was designed to be small and simple, so it's good for
@@ -45,7 +44,6 @@ embedded systems.
 %prep
 %autosetup -n %{name}-r%{version}
 
-
 %build
 %meson -Ddefault_library=shared -Ddistro_install=true
 %meson_build
@@ -58,10 +56,9 @@ embedded systems.
 %files -n %{libpackage}
 %license LICENSE.txt
 %doc README.md
-#{_libdir}/lib%{name}.so.%{version}
-#{_libdir}/lib%{name}.so.%{major}
+%{_libdir}/libinih.so.%{major}
 
 %files -n %{devpackage}
 %{_includedir}/ini.h
 %{_libdir}/pkgconfig/inih.pc
-#{_libdir}/lib%{name}.so
+%{_libdir}/libinih.so
