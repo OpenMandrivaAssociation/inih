@@ -58,7 +58,7 @@ embedded systems.
 %license LICENSE.txt
 %doc README.md
 #{_libdir}/lib%{name}.so.%{version}
-%{_libdir}/lib%{name}.so.%{major}
+#{_libdir}/lib%{name}.so.%{major}
 
 %files -n %{devpackage}
 %{_includedir}/ini.h
