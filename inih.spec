@@ -63,4 +63,4 @@ embedded systems.
 %files -n %{devpackage}
 %{_includedir}/ini.h
 %{_libdir}/pkgconfig/inih.pc
-%{_libdir}/lib%{name}.so
+#{_libdir}/lib%{name}.so
