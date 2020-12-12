@@ -47,7 +47,7 @@ embedded systems.
 
 
 %build
-%meson -Ddistro_install=true
+%meson -Ddefault_library=shared -Ddistro_install=true
 %meson_build
 
 
