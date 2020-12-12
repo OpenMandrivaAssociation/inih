@@ -1,3 +1,4 @@
+%global debug_package %{nil}
 %define major 0
 %define libpackage %mklibname inih %{major}
 %define devpackage %mklibname -d inih
