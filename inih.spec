@@ -4,7 +4,7 @@
 
 Name:     inih
 Version:  52
-Release:  1
+Release:  2
 Summary:  Simple INI file parser library
 
 License:  BSD
