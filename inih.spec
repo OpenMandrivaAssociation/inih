@@ -7,7 +7,7 @@
 
 Name:     inih
 Version:  56
-Release:  1
+Release:  2
 Summary:  Simple INI file parser library
 
 License:  BSD
@@ -51,7 +51,7 @@ pages of code, and it was designed to be small and simple, so it's good for
 
 %package -n %{devreader}
 Summary:  Development package for %{name} INIReader
-Requires:	%{libpackage} = %{EVRD}
+Requires:	%{libreader} = %{EVRD}
 
 %description -n %{devreader}
 This package contains development files for %{name} INIReader.
