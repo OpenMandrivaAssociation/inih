@@ -6,8 +6,8 @@
 %define devreader %mklibname -d INIReader
 
 Name:     inih
-Version:  56
-Release:  2
+Version:  57
+Release:  1
 Summary:  Simple INI file parser library
 
 License:  BSD
