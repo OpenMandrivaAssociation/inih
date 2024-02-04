@@ -6,7 +6,7 @@
 %define devreader %mklibname -d INIReader
 
 Name:     inih
-Version:  57
+Version:  58
 Release:  1
 Summary:  Simple INI file parser library
 
