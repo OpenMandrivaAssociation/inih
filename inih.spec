@@ -6,7 +6,7 @@
 %define devreader %mklibname -d INIReader
 
 Name:     inih
-Version:  58
+Version:  62
 Release:  1
 Summary:  Simple INI file parser library
 
@@ -61,7 +61,7 @@ pages of code, and it was designed to be small and simple, so it's good for
 embedded systems.
 
 %prep
-%autosetup -n %{name}-r%{version}
+%autosetup -n inih-r62
 %meson -Ddefault_library=shared -Ddistro_install=true
 
 %build
